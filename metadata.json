@@ -1,0 +1,6 @@
+{
+  "name": "BarberPilot",
+  "description": "Sistema completo de gestão, agendamento online, financeiro e marketing com IA para barbearias.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #0f1218;
+    color: #e2e8f0;
+  }
+}
+
+/* Custom dark-grayish and dark-blue scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f1218;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #232b3e;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1d4ed8;
+}
+
+/* Dark blue glow effects */
+.glow-blue {
+  box-shadow: 0 0 25px -5px rgba(29, 78, 216, 0.25);
+}
+
+.glow-blue-sm {
+  box-shadow: 0 0 15px -3px rgba(29, 78, 216, 0.3);
+}
